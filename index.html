@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<title>Hello</title>
 </head>
-
 <body>
-
-
+  <input type="button" value="hello" onClick="showAndroidToast('Hello Android!')" />
+  <script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+</script>
 </body>
 </html>
 
