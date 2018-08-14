@@ -3,8 +3,7 @@
 <head>
 <title>Hello</title>
 </head>
-<body>
-  <input type="button" value="hello" onClick="showAndroidToast('Hello Android!')" />
+<body onload="showAndroidToast('Hello Android!')">
   <script type="text/javascript">
     function showAndroidToast(toast) {
         Android.showToast(toast);
